@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;;;;AAKA,aALA,QAAA,gBACA,QAAA,iBACA,QAAA,iBACA,QAAA,gBAEAA,QAAQC,IAAI","file":"src.f280656f.js","sourceRoot":"../src","sourcesContent":["import \"./styles.css\";\nimport \"./styles.scss\";\nimport \"./styles.sass\";\nimport \"./reset.scss\"\n\nconsole.log(\"hello world!\");"]}
