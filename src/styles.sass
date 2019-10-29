@@ -1,6 +1,74 @@
 $primary-color: white
 $bg: black
 
+body 
+  font-family: 'Roboto', sans-serif
+
+.container
+  width: 100%
+  background-image: url('./images/bgImg.jpg')
+  height: 650px
+  background-color: #16404B
+  background-blend-mode: soft-light
+  background-attachment: fixed
+
+.header
+  width: 80%
+  margin: 0 auto
+  padding-top: 10px
+  color: #fff
+  .header-nav
+    display: flex
+    position: relative
+    brand
+      flex: 1
+    ul
+      flex: 2
+      position: absolute
+      right: 0
+      padding-right: 20px
+      li
+        list-style: none
+        padding-right: 10px
+        display: inline
+        padding-right: 20px
+        a
+          text-decoration: none
+          color: #fff
+          font-size: 12px
+      .brand__sign-in-color
+        color: #39B9ED!important
+            
+        
+  .call
+    margin-top: 150px
+    .call__button
+      margin-top: 25px
+      padding: 1rem 2rem
+      background-color: #39B9ED
+      color: #fff
+      cursor: pointer
+      border-radius: 10px
+      -webkit-appearance: none
+      -moz-appearance: none
+      border: 2px solid #39B9ED
+    .call__button:focus
+      outline: 1px solid #fff
+      outline-offset: -4px
+    .call__button:focus, .call__button:hover
+      background: #379AC3
+      border: 2px solid #379AC3
+
+    h1
+      font-size: 3em
+      font-weight: 300
+    p 
+      font-size: 16px
+      line-height: 21px
+      font-weight: 300
+      
+
+
 
         
 
